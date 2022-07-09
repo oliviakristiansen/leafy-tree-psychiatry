@@ -6075,7 +6075,7 @@ audio:not([controls]) {
 }
 
 a {
-  color: var(--color-heading);
+  color: var(--color-primary);
   text-decoration: none;
   outline: none;
 }
@@ -6085,7 +6085,7 @@ a:focus,
 a:active {
   text-decoration: none;
   outline: none;
-  color: var(--color-primary);
+  color: var(--color-subtitle);
 }
 
 a:focus {
