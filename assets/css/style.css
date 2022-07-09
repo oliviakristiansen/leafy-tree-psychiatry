@@ -19728,7 +19728,23 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
 
 .services_div {
     display: flex;
+    flex-wrap: wrap;
 }
+
 .services {
     width: 48%
 }
+
+.other-fees, .other-services{
+    margin-top: 2em;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+    .services_div {
+        display: flex;
+        flex-wrap: none;
+    }
+    .services {
+        width: 100%
+    }
+  }
