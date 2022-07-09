@@ -33,8 +33,6 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
-sass:
-  sass_dir: assets/scss
 
 # Exclude from processing.
 # The following items will not be processed, by default.
