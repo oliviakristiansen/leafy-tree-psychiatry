@@ -6200,7 +6200,7 @@ img {
   -ms-interpolation-mode: bicubic;
   border: 0;
   vertical-align: middle;
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -14743,9 +14743,16 @@ div#featured-project-carousel {
   margin-bottom: 15px;
   border-radius: 20px;
   background-color: #545961;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--color-lightn);
 }
+
+#services .experience-style-two .experience-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 .experience-style-two .experience-center .experience-title {
   margin-top: 10px;
   font-size: 26px;
@@ -19748,3 +19755,8 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
         width: 100%
     }
   }
+
+.client-portal{
+    display: flex;
+    justify-content: space-around;
+}
