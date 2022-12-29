@@ -47,8 +47,8 @@
   --color-subtitle: #40771f;
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
   --background-color-2: #212428;
-  --shadow-1: 10px 10px 19px #1c1e22,
-      -10px -10px 19px #262a2e;
+  --shadow-1: 1px 1px 19px #1c1e22,
+      -1px -1px 19px #262a2e;
   --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
   --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
@@ -16445,8 +16445,8 @@ span.sr-only {
   box-shadow: var(--shadow-1);
   padding: 30px;
   border-radius: 10px;
-  margin-left: 20px;
   height: 100%;
+  margin-top:15px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-form-wrapper {
@@ -16474,7 +16474,6 @@ span.sr-only {
   font-family: var(--font-secondary);
   margin-bottom: 14px;
   text-align: left;
-  display: block;
 }
 .contact-form-wrapper input {
   background-color: #191b1e;
@@ -19542,6 +19541,9 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
   border: 2px solid #dadada;
   box-shadow: none;
   color: var(--color-body-white);
+}
+.white-version .contact-form-wrapper input.submit {
+  margin-top: 15px;
 }
 .white-version .contact-form-wrapper textarea {
   background: #fdfefe;
