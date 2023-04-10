@@ -19766,3 +19766,7 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
     display: flex;
     justify-content: space-around;
 }
+
+h5{
+  color: var(--color-subtitle);
+}
