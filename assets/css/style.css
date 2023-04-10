@@ -11233,6 +11233,10 @@ body.template-color-1 {
   top: 0;
 }
 
+h5 {
+  color: var(--color-subtitle);
+}
+
 .sticky .header-wrapper {
   height: 98px;
 }
