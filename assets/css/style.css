@@ -191,6 +191,10 @@ h6,
   color: var(--color-heading);
 }
 
+h5{
+  color: var(--color-subtitle) !important;
+}
+
 h1,
 .h1 {
   font-size: var(--h1);
@@ -19767,6 +19771,3 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
     justify-content: space-around;
 }
 
-h5{
-  color: var(--color-subtitle);
-}
