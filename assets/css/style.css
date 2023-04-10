@@ -191,7 +191,7 @@ h6,
   color: var(--color-heading);
 }
 
-h5{
+#paymentOptions h5{
   color: var(--color-subtitle) !important;
 }
 
